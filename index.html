@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<center >
+      <ul class="mainmenu">
+          <li class="link"><a href="#grid">Grid galley</a></li>
+          <li class="link"><a href="#slider">Sliding galley</a></li>
+    </ul>
+    <img id="avengelogo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8NQEvkqODlnsMWuPz_dBmLcuAV_RaTKuBpw&usqp=CAU">
+    <section id="grid">
+        <h1><center>Grid Gallery</center></h1>
+        <div class="1div">
+            <span>
+                <img id="captain" src="https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/0a823cb0-01a9-4835-a348-c64187783ccb/d37cb96c-805c-4aa2-9f2f-e62d9eb814c7/1280x720/match/image.jpg">
+            </span>
+            <span>
+                <img id="hulk" src="https://i.ytimg.com/vi/MAfIvBgChjQ/maxresdefault.jpg">
+            </span>
+            <span>
+                <img id="iron" src="https://cnet1.cbsistatic.com/img/BFHZ88HgjJthGkJTYrOu8Qelmeo=/1200x675/2020/01/10/00378756-b8d2-4c51-a3e0-3db597493622/twitter-in-stream-wide-iron-man.jpg">
+            </span>
+        </div>
+        <div class="2div">
+            <span>
+                <img id="thor" src="https://cnet2.cbsistatic.com/img/u54H66_jDGH62jWyW5DHUbZZtEs=/940x0/2019/06/27/a6b10caf-cfd4-49c6-b664-db51c84cd9f5/watch-some-crazy-fat-thor-stunts-in-bts-videos-from-avengers-endgame-social.jpg">
+            </span>
+            <span>
+                <img id="thanos" src="https://img.theweek.in/content/dam/week/news/entertainment/images/2019/4/26/thanos-avengers-infinity.jpg">
+            </span>
+            <span>
+                <img id="spider" src="https://i.ytimg.com/vi/K4zm30yeHHE/maxresdefault.jpg">
+            </span>
+        </div>
+    </section>
+    <div class="container">
+        <section id="slider">
+            <h1><center>Sliding Gallery</center></h1>
+            <div id="my-carousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li data-target="#my-carousel" data-side-to="0" class="active"></li>
+                    <li data-target="#my-carousel" data-side-to="1" class="active"></li>
+                    <li data-target="#my-carousel" data-side-to="2" class="active"></li>
+                    <li data-target="#my-carousel" data-side-to="3" class="active"></li>
+                    <li data-target="#my-carousel" data-side-to="4" class="active"></li>
+                    <li data-target="#my-carousel" data-side-to="5" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+
+                            <img src="https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/0a823cb0-01a9-4835-a348-c64187783ccb/d37cb96c-805c-4aa2-9f2f-e62d9eb814c7/1280x720/match/image.jpg" class="img-responsive">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="https://i.ytimg.com/vi/MAfIvBgChjQ/maxresdefault.jpg" class="img-responsive">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="https://cnet1.cbsistatic.com/img/BFHZ88HgjJthGkJTYrOu8Qelmeo=/1200x675/2020/01/10/00378756-b8d2-4c51-a3e0-3db597493622/twitter-in-stream-wide-iron-man.jpg" class="img-responsive">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="https://cnet2.cbsistatic.com/img/u54H66_jDGH62jWyW5DHUbZZtEs=/940x0/2019/06/27/a6b10caf-cfd4-49c6-b664-db51c84cd9f5/watch-some-crazy-fat-thor-stunts-in-bts-videos-from-avengers-endgame-social.jpg" class="img-responsive">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="https://img.theweek.in/content/dam/week/news/entertainment/images/2019/4/26/thanos-avengers-infinity.jpg" class="img-responsive">
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="https://i.ytimg.com/vi/K4zm30yeHHE/maxresdefault.jpg" class="img-responsive">
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#my-carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#my-carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+        </section>
+    </div>
+
+</body></html>
